@@ -1,0 +1,34 @@
+\contentsline {chapter}{\numberline {第一章\hspace {0.3em}} 初中数学思想和解题方法}{5}{chapter.1}
+\contentsline {paragraph}{思考：现在有一个空水壶、水、煤气灶、火机,让你烧一壶水你怎么烧？如果其他条件不变,只是水壶里面有半壶开水,让你烧一壶开水,你怎么做？}{5}{section*.2}
+\contentsline {section}{\numberline {1.1}数型结合}{5}{section.1.1}
+\contentsline {section}{\numberline {1.2}分类讨论}{7}{section.1.2}
+\contentsline {section}{\numberline {1.3}整体带入法}{7}{section.1.3}
+\contentsline {chapter}{\numberline {第二章\hspace {0.3em}}勾股定理}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}勾股定理各种题型}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}方程思想和勾股定理结合的题目}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}求最短距离问题}{10}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}网格问题}{11}{subsection.2.1.3}
+\contentsline {chapter}{\numberline {第三章\hspace {0.3em}}全等三角形}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}全等三角形}{13}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}学习要求}{13}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}概念}{13}{subsection.3.1.2}
+\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}一元二次方程}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}概念}{15}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}定义}{15}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}一般形式}{15}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}判断一元二次方程}{15}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}解方程}{15}{section.4.2}
+\contentsline {section}{\numberline {4.3}一元二次方程根的判别式}{17}{section.4.3}
+\contentsline {section}{\numberline {4.4}根与系数的关系}{17}{section.4.4}
+\contentsline {section}{\numberline {4.5}习题}{17}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}定义}{17}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}解一元二次方程}{18}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}根与系数的关系}{18}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}根的判别式}{19}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}一元二次方程的应用}{20}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}传播问题}{20}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}平均增长率问题}{21}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}握手问题}{21}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}商品销售问题}{22}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.5}面积问题}{23}{subsection.4.6.5}
+\contentsline {subsection}{\numberline {4.6.6}数字问题}{24}{subsection.4.6.6}

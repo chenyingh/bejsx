@@ -1,0 +1,196 @@
+\documentclass[14pt,UTF-8,a4paper,titlepage]{ctexbook}
+\usepackage[left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks]{hyperref}
+\usepackage{listings}
+\usepackage{draftwatermark} %水印包
+\SetWatermarkText{贝尔加教育} %水印的标示
+\SetWatermarkLightness{0.8} %水印的亮度
+\SetWatermarkScale{0.7}      %水印的大小
+\usepackage{pgf,tikz,pgfplots}
+\pgfplotsset{compat=1.5}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\title{\zihao{1}贝尔加初中数学讲义}
+\author{陈应洪}
+\date{\today}
+\begin{document}
+\maketitle
+\tableofcontents
+\chapter{ 初中数学思想和解题方法}
+\paragraph{思考：现在有一个空水壶、水、煤气灶、火机,让你烧一壶水你怎么烧？如果其他条件不变,只是水壶里面有半壶开水,让你烧一壶开水,你怎么做？}.\par
+(1)数形结合法：数学家华罗庚说得好：“数形结合百般好,隔离分家万事休,几何代数统一体,永远联系莫分离”．几何图形的形象直观,便于理解,代数方法的一般性,解题过程的机械化,可操作性强,便于把握,因此数形结合思想是数学中重要的思想方法．所谓数形结合就是根据数学问题的题设和结论之间的内在联系,既分析其数量关系,又揭示其几何意义使数量关系和几何图形巧妙地结合起来,并充分地利用这种结合,探求解决问题的思路,使问题得以解决的思考方法．每个几何图形中蕴含着一定的数量关系,而数量关系常常又通过图形的直观性作出反映和描述,数与形之间可以相互转化,将问题化难为易,化抽象为具体. 数形结合的思想方法通过借数解形、以形助数,能使某些较复杂的数学问题迎刃而解．\par
+(2)分类讨论法：在数学中,我们常常需要根据研究对象性质的差异,分各种不同情况予以考查．这种分类思考的方法是一种重要的数学思想方法,同时也是一种解题策略．分
+类是按照数学对象的相同点和差异点,将数学对象区分为不同种类的思想方法,掌握分类的方法,领会其实质,对于加深基础知识的理解．提高分析问题、解决问题的能力是十分
+重要的．正确的分类必须是周全的,既不重复、也不遗漏．分类的原则：（1）分类中的每一部分是相互独立的；（2）一次分类按一个标准；（3）分讨论应逐级进行．\par
+(3)转化化归思想：所谓化归思想就是化未知为已知、化繁为简、化难为易．如将分式方程化为整式方程,将代数问题化为几何问题,将四边形问题转化为三角形问题等．实现
+这种转化的方法有：待定系数法、配方法、整体代人法以及化动为静、由抽象到具体等．\par
+(4)方程与函数思想：方程与函数是研究数量关系的重要工具,在处理某些问题时,往往根据已知与未知之间的内在联系和相等关系建立方程（或方程组）或函数关系,这种通
+过方程（组）或函数来沟通已知与未知,从而使问题获得解决的思想方法称之为方程与函数思想．\par
+
+\section{数型结合}
+\setlength{\parindent}{0pt} 1、绝对值小于3的非负整数是,绝对值不大于4的整数是\rule[-5pt]{1.3cm}{0.05em}.\\
+2、设$a>0$,$b<0$且$|a|<|b|$,用“<”号a,-a,b,-b把它们连接起来\rule[-5pt]{1.3cm}{0.05em}.\\
+3、化简三个数a,b,c在数轴上的对应点如图1,化简$|a+b|-|b|+|a+c|-|c-a|$.\\
+\begin{figure}[htb]
+\includegraphics[scale=1]{1.jpg}
+\caption{}
+\end{figure}
+4、化简$|a+c|+|b+c|-|a-b|$.\\
+5、化简$|a-b|-|b+c|+|c-a|-|a+c|$.\\
+6、若a,b为有理数,有$a>0,b<0,a+b$,比较$a,-a,-b,b$大小.\\
+7、已知两数,a,b,如果a比b大,那么$|a|,|b|$的大小\rule[-5pt]{1.3cm}{0.05em}.\\
+8、用数轴方程解方程.\\
+\qquad \qquad (1)、$|x+5|+2=5$ \qquad\qquad\qquad\qquad\qquad\qquad (2)、$|x-3|-3=2$\par
+\vspace{5cm}
+9、$|x-1|+|x-3|$的最小值.（注：绝对值是指一个数在数轴上所对应点到原点的距离,用“||”表示.|b-a|或者|a-b|表示数轴上表示a点到b点的距离）.\\
+10、先阅读下面的材料,然后解答问题：\\
+\hspace{16pt} 在一条直线上有依次排列的n（n＞1）台机床在工作,我们要设置零件供应站P,使这n台机床到供应站P的距离总和最小,要解决这个问题,先退到比较简单的情形：\\
+\hspace{16pt}如图,如果直线上有2台机床时,很明显设在A1和A2之间的任何地方都行,因为甲和乙走的距离之和等于A1到A2的距离.\par
+\hspace{16pt}如图②,如果直线上有3台机床时,不难判断,供应站设在中间一台机床A2处最合适,因为如果P放在A2处,甲乙和丙所走的距离之和恰好为A1到A3的距离,而如果把P放到别处,例如D处,那么甲和丙所走的距离之和仍是A1到A3的距离,可是乙还得走从A2到D的这一段,在是多出来的,一次P放在A2处是最佳选择.不难知道,如果直线上有4台机床,P应设在第2台与第3台之间的任何地方；有5台机床,P应设在第3台的位置.\par
+问题1：有n台机床时,P应设置在何处？\par
+\vspace{3cm}
+问题2：根据问题1的结论,求$|x-1|+|x-2|+|x-3|+|x-4|+|x-5|+.....+|x-617|$的最小值.
+\vspace{4cm}
+\section{分类讨论}
+1、解不等式方程.\\
+\qquad \qquad (1)、$|x+5|+2=5$ \qquad\qquad\qquad\qquad\qquad\qquad (2)、$|x-3|-3=2$\par
+\vspace{3cm}
+2、已知a、b互为相反数,c、d互为倒数,x的平方是4,求$x^2-(a+b+cd)x+(a+b)^{2008}+(-cd)^{2009}$的值.\par
+\vspace{3cm}
+3、已知a为有理数且$a \neq 0 $,则$\frac{a}{|a|}+\frac{2|a|}{a}$= \rule[-5pt]{1.3cm}{0.05em}.\par
+4、已知a,b均为不等于0的有理数,则代数$\frac{|a|}{a}+\frac{b}{|b|}+\frac{ab}{|ab|} $的值为\rule[-5pt]{1.3cm}{0.05em}.\par
+5、求代数式$\frac{a}{|a|}+\frac{b}{|b|}+\frac{ab}{|ab|} $的值为 \rule[-5pt]{1.3cm}{0.05em}.\par
+6、若$abc\neq 0 $,$\frac{a}{|a|}+\frac{2b}{|2b|}+\frac{3c}{|3c|} $.\rule[-5pt]{1.3cm}{0.05em}.\par
+7、解关于x的方程：\\
+$(a-x)x=b-1$\\
+\vspace{3cm}
+\section{整体带入法}
+1、$(\frac{1}{2}+\frac{1}{3}+\frac{1}{4}...\frac{1}{1999})(1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}...\frac{1}{1998})-(1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}...\frac{1}{1999})(\frac{1}{2}+\frac{1}{3}+\frac{1}{4}...\frac{1}{1998})$\par
+\vspace{2cm}
+2、求$(1-\frac{1}{2^2} )(1-\frac{1}{3^2} )(1-\frac{1}{4^2} )(1-\frac{1}{5^2} )...(1-\frac{1}{2018^2} )$\par
+\vspace{2cm}
+3、$(\frac{1}{2}+\frac{1}{3}+\frac{1}{4}...\frac{1}{2008})(1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}...\frac{1}{2007})-(1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}...\frac{1}{2008})(\frac{1}{2}+\frac{1}{3}+\frac{1}{4}...\frac{1}{2007})$\\
+\chapter{勾股定理}
+\section{勾股定理各种题型}
+\subsection{方程思想和勾股定理结合的题目}
+1、一旗杆在其$\frac{1}{3} $的B处折断,量得AC=5米,则旗杆原来的高度为(   ).\\
+\begin{figure}[h]
+\includegraphics[scale=1]{2.jpg}
+\end{figure}
+A.$\sqrt{5}$米 \hfill B.$2\sqrt{5}$米 \hfill  C.10米 \hfill  D.$5\sqrt{3}$米\par
+2、如图,在$\delta $ ABC中,$\angle$ B=40°,EF$//$AB,$\angle$1=$50^{\circ}$,CE=3,EF比CF大1,则EF的长为( ).\\
+\begin{figure}[h]
+\includegraphics[scale=1]{3.jpg}
+\end{figure}
+A.5 \hfill B.6 \hfill  C.3 \hfill  D.4\par
+3、已知,如图长方形ABCD中,AB=3cm,AD=9cm,将此长方形折叠,使点B与D重合,折痕为EF,则BE的长为（）.\\
+\begin{figure}[h]
+\includegraphics[scale=1]{4.jpg}
+\end{figure}
+A.3cm \hfill B.4cm \hfill  C.5cm \hfill  D.6cm \par
+4、在我国古代数学著作《九章算术》中记载了一个有趣的问题,这个问题的意思是：有一个水池,水面是一个边长为10尺的正方形,在水池正中央有一根新生的芦苇,它高出水面1尺,如图所示,如果把这根芦苇垂直拉向岸边,它的顶端恰好到达岸边的水面．那么水深多少？芦苇长为多少？\par
+\begin{figure}[h]
+\includegraphics[scale=0.6]{5.jpg}
+\end{figure}
+\subsection{求最短距离问题}
+1、如图,长方体的底面边长为~1~cm和~3~cm,高为~6~cm．如果用一根细线从点A开始经过4个侧面缠绕一圈到达~B,那么所用细线最短需要（　　）\\
+A.12cm \hfill B.11cm \hfill  C.10cm  \hfill  D.9cm \par  
+\begin{figure}[h]
+\includegraphics[scale=1]{6.jpg}
+\end{figure}
+2、如图,是一长、宽都是3cm,高BC=9cm的长方体纸箱,BC上有一点P,$pC=\frac{2}{3}BC$,一只蚂蚁从点A出发沿纸箱表面爬行到点P的最短距离是（　　）\\
+A.$6\sqrt{2}$cm \hfill B.$3\sqrt{3}$ cm \hfill  C.10cm \hfill  D.12cm \par
+\begin{figure}[h]
+\includegraphics[scale=1]{7.jpg}
+\end{figure}
+3.如图,小红想用一条彩带缠绕易拉罐,正好从A点绕到正上方B点共四圈,已知易拉罐底面周长是12cm,高是20cm,那么所需彩带最短的是（　　）\\
+A.$13$cm \hfill B.$4\sqrt{61}$ cm \hfill  C.$4\sqrt{34}$cm \hfill  D.52cm \par 
+\vspace{0.2cm}
+
+\includegraphics[scale=1.2]{8.jpg} \hspace{1cm}
+\includegraphics[scale=1.2]{10.jpg}  \hspace{1cm}
+\includegraphics[scale=0.8]{11.jpg}\par
+4.长方体敞口玻璃罐,长、宽、高分别为16cm、6cm和6cm,在罐内点E处有一小块饼干碎末,此时一只蚂蚁正好在罐外壁,在长方形ABCD中心的正上方2cm处,则蚂蚁到达饼干的最短距离是多少cm．（　　）\\
+A.$7\sqrt{5}$cm \hfill B.$\sqrt{233}$ cm \hfill  C.24cm  \hfill  D.$\sqrt{232}$cm \par
+
+5.如图,一圆柱高8cm,底面半径为$\frac{6}{\pi}$cm,一只蚂蚁从点A爬到点B处吃食,要爬行的最短路程是()．
+\subsection{网格问题}
+1.1、在边长为1的小正方形组成的网格中,$\bigtriangleup$ABC的三个顶点均在格点上,则$\bigtriangleup$ABC中BC边上的高为
+\begin{figure}[h]
+\includegraphics[scale=1]{12.jpg}
+\end{figure}
+2.如图,方格纸中每个小方格都是边长为1的正方形,我们把以格点连线为边的多边形称为“格点多边形”．如图（一）中四边形ABCD就是一个“格点四边形”．\\
+（1）求图中四边形ABCD的面积；\\
+（2）在图方格纸中画一个格点三角形EFG,使$\bigtriangleup$EFG的面积等于四边形ABCD的面积且为轴对称图形．\par
+\chapter{全等三角形}
+\section{全等三角形}
+\subsection{学习要求}
+1.理解全等图形及全等三角形的概念,能识别全等三角形中的对应边,对应角.\\
+2.掌握全等三角形的表示方法及全等三角形的性质.\\
+3.通过平移、翻折和旋转一个三角形等活动,发展、感知两个全等三角形的特征,学会判断对应的元素的方法.\\
+\subsection{概念}
+\textbf{1.全等的概念}:能够完全重合的两个图形叫做全等形(全等形关注的是两个图形的形状和大小,判断两个图形是否全等两个图形是否可以重合在一起).\\
+\textbf{2.三角形的概念}:能够完全重合的两个三角形形叫做全三角形.\\
+\textbf{3.对应元素}:把两个全等三角形的重合在一起,重合的顶点叫作对应顶点,重合的边叫作对应边,重合的角叫作对应角.\\
+\textbf{例} 如图,已知$\bigtriangleup      ABC \cong \bigtriangleup DEC$写出所有的对应边,对应角.\\
+\definecolor{ffffff}{rgb}{1.,1.,1.}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(-5.199904850177654,-1.1965600451285707) rectangle (2.870913519509735,2.972193095388202);
+\fill[line width=2.pt,,color=ffffff] (-4.,0.) -- (2.,0.) -- (0.,2.) -- cycle;
+\fill[line width=2.pt,color=ffffff] (-4.464101615137754,2.2679491924311224) -- (0.7320508075688775,-0.7320508075688772) -- (0.,2.) -- cycle;
+\draw [line width=1.2pt,] (-4.,0.)-- (2.,0.);
+\draw [line width=1.2pt,] (2.,0.)-- (0.,2.);
+\draw [line width=1.2pt,] (0.,2.)-- (-4.,0.);
+\draw [line width=1.2pt] (-4.464101615137754,2.2679491924311224)-- (0.7320508075688775,-0.7320508075688772);
+\draw [line width=1.2pt] (0.7320508075688775,-0.7320508075688772)-- (0.,2.);
+\draw [line width=1.2pt] (0.,2.)-- (-4.464101615137754,2.2679491924311224);
+\begin{scriptsize}
+\draw [fill=black] (-4.,0.) circle (0.5pt);
+\draw[color=black] (-4.013845454980116,-0.1824441717200292) node {$\LARGE{A}$};
+\draw [fill=black] (2.,0.) circle (0.5pt);
+\draw[color=black] (2.23928425579507,0.07020753376583584) node {$\LARGE{B}$};
+\draw [fill=black] (0.,2.) circle (0.5pt);
+\draw[color=black] (0.2391249206986299,2.070366868862267) node {$\LARGE{C}$};
+\draw[color=black] (-1.346966341518196,-0.13331745120888877) node {$\LARGE{c}$};
+\draw[color=black] (1.3058765660833977,0.8913255765948971) node {$\LARGE{a}$};
+\draw[color=black] (-2.385645575182312,1.3264479582649982) node {$\LARGE{b}$};
+\draw [fill=black] (-4.464101615137754,2.2679491924311224) circle (0.5pt);
+\draw[color=black] (-4.2594790575358195,2.41425391244025) node {$\LARGE{A'}$};
+\draw [fill=black] (0.7320508075688775,-0.7320508075688772) circle (0.5pt);
+\draw[color=black] (0.9900619342260653,-0.6596751709711075) node {$\LARGE{B'}$};
+\draw[color=black] (-1.1785318711942854,0.5965652535280546) node {$\LARGE{c'}$};
+\draw[color=black] (0.5268671408353107,0.9334341941758746) node {$\LARGE{a'}$};
+\draw[color=black] (-1.9996499140233501,2.3089823684878064) node {$\LARGE{b'}$};
+\end{scriptsize}
+\end{tikzpicture} \\
+\textbf{4.表示方法}:全等用符号“$\cong$”表示,读作“全等于”.$\bigtriangleup      ABC \cong \bigtriangleup DEF$和表示$\bigtriangleup ABC$和$\bigtriangleup DEF$全等,读作"$\bigtriangleup ABC$全等于$\bigtriangleup DEF$". \\
+\textbf{4.全等三角形的性质:}全等三角形的对应边相等;全等三角形的对应角相等.\\
+\textbf{例}.如图，点$A,B,C,D$在同一条直线上,$\bigtriangleup ABF \cong  \bigtriangleup DCE$,$AF$和$DE$,$BF$和$CE$是对应边，求证:$AF//DE$\\
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(-1.370559629844417,-1.628276358312839) rectangle (5.322854646928852,1.7824547427211959);
+\draw [line width=1.2pt] (2.,0.)-- (1.4107855359693817,-1.0227878702292361);
+\draw [line width=1.2pt] (1.4107855359693817,-1.0227878702292361)-- (3.,0.);
+\draw [line width=1.2pt] (3.,0.)-- (0.,0.);
+\draw [line width=1.2pt] (0.,0.)-- (1.589214464030618,1.022787870229236);
+\draw [line width=1.2pt] (1.589214464030618,1.022787870229236)-- (1.,0.);
+\begin{scriptsize}
+\draw [fill=black] (0.,0.) circle (0.5pt);
+\draw[color=black] (0.02050646767628886,-0.17609647826507152) node {$\LARGE{A}$};
+\draw [fill=black] (1.,0.) circle (0.5pt);
+\draw[color=black] (1.0448898700346327,-0.18191683850574394) node {$\LARGE{B}$};
+\draw [fill=black] (2.,0.) circle (0.5pt);
+\draw[color=black] (2.1973211976877693,0.10328081328720436) node {$\LARGE{C}$};
+\draw [fill=black] (3.,0.) circle (0.5pt);
+\draw[color=black] (3.198423159083424,0.06253829160249746) node {$\LARGE{D}$};
+\draw [fill=black] (1.4107855359693817,-1.0227878702292361) circle (0.5pt);
+\draw[color=black] (1.4930576085664082,-1.2121206011047612) node {$\LARGE{E}$};
+\draw [fill=black] (1.589214464030618,1.022787870229236) circle (0.5pt);
+\draw[color=black] (1.789895980840701,1.08110133372017) node {$\LARGE{F}$};
+\end{scriptsize}
+\end{tikzpicture}
+
+\include{ercifangchen}
+
+
+\end{document}
